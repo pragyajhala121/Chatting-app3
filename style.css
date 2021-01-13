@@ -1,0 +1,106 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url("https://i.pinimg.com/originals/83/e1/76/83e176384c989f241136d7123715d5d9.jpg");
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-jzKr-bF1uFqgaQWFYOpBnx9FxVk7tvofA&usqp=CAU");
+     float: none;
+     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 8px rgb(255, 0, 212);
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button,#add
+{
+    width: 80%;border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(255, 162, 201), rgb(255, 0, 212), rgb(225, 0, 255), rgb(255, 0, 128), rgb(255, 0, 0));
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-jzKr-bF1uFqgaQWFYOpBnx9FxVk7tvofA&usqp=CAU");border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#add{
+    width: 10%;
+}
+label{
+    color: #000;
+}
